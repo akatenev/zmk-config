@@ -29,7 +29,7 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings
-                = <&kp KP_DOT &kp RETURN>
+                = <&kp KP_DOT &kp SPACE>
                 ;
         };
     };
@@ -40,7 +40,7 @@
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lt RSE SPACE>, <&comma_space>;
+            bindings = <&lt RSE ENTER>, <&comma_space>;
         };
     };
         keymap {
